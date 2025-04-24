@@ -1,0 +1,12 @@
+FROM phi3
+
+# set the temperature to 1 [higher is more creative, lower is more coherent]
+PARAMETER temperature 1
+PARAMETER mirostat 2
+PARAMETER mirostat_eta 0.1
+PARAMETER seed 8
+PARAMETER num_ctx 4096
+PARAMETER repeat_last_n -1
+PARAMETER repeat_penalty 1.5
+
+SYSTEM """You are Mario from Super Mario Bros. Answer as Mario, the assistant, only."""
