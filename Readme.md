@@ -1,4 +1,3 @@
-### Ollama Workshop
-link to official ollama repo for your reference : https://github.com/ollama/ollama
-
-link to usable parameters and their use : https://github.com/ollama/ollama/blob/main/docs/modelfile.md#parameter
+### Prompt tuning on Ollama-gemma3
+Official Ollama repository: https://github.com/ollama/ollama
+Parameters and its purpose : https://github.com/ollama/ollama/blob/main/docs/modelfile.md#parameter
